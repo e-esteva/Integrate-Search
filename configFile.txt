@@ -1,0 +1,6 @@
+query=SeuratDemux-zoom=500-sensitivity-500/seurat-obj.rds
+ref=/gpfs/data/reizislab/ee699/KRAS_CITE_SEQ/Clean/KNETL_zoom=455/Sensitivity=500/gilli-HSC-atlas/gillis-hsc-mouse-atlas-seurat-obj.rds
+k=60
+out_dir=SeuratDemux-zoom=500-sensitivity-500
+project_name='KRAS_WT'
+cellID='celltype'
