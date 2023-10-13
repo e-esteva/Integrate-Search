@@ -1,6 +1,14 @@
+# seurat object to annotate:
 query=SeuratDemux-zoom=500-sensitivity-500/seurat-obj.rds
+# annotated reference:
 ref=/gpfs/data/reizislab/ee699/KRAS_CITE_SEQ/Clean/KNETL_zoom=455/Sensitivity=500/gilli-HSC-atlas/gillis-hsc-mouse-atlas-seurat-obj.rds
+# Number of nearest neighbors:
 k=60
+# name of directory to output results:
 out_dir=SeuratDemux-zoom=500-sensitivity-500
+# output prefix:
 project_name='KRAS_WT'
+# column in metadat in ref containing labels
 cellID='celltype'
+# search depth: s <= k
+s
