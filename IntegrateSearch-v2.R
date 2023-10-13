@@ -11,7 +11,8 @@ IntegrateSearch=function(ref,query,project_name=NULL,refcellID=NULL,out_dir=getw
   if(is.null(s)){
     s = k
   }
-  source('/gpfs/data/reizislab/ee699/SingleCellAnalysisTools/IntegrateSearch/SeuratHarmony.R')  
+  # path to SeuratHarmony.R
+  source('SeuratHarmony.R')  
   findNNinRef=function(knn,queryRange,cellID,search_depth){
     df.subset=knn[queryRange,seq(search_depth)]
     
