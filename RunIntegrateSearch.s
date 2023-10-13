@@ -9,4 +9,4 @@ module load r/4.1.2
 
 source configFile.txt
 
-Rscript RunIntegrateSearch.R ${query} ${ref} ${k} ${out_dir} ${project_name} ${cellID}
+Rscript RunIntegrateSearch.R ${query} ${ref} ${k} ${out_dir} ${project_name} ${cellID} ${s}
